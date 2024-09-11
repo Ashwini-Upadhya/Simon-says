@@ -1,0 +1,45 @@
+body{
+    text-align: center; 
+}
+.colorContainer{
+    display: Flex;
+    justify-content: center;
+}
+.btn{
+    margin:1rem;
+    height: 150px;
+    width: 150px;
+    border:0px solid black;
+    border-radius: 20%;
+    box-shadow: 2px 1px black;
+}
+.red{
+    background-color: rgba(255, 57, 57, 0.822);
+}
+.yellow{
+    background-color: rgba(255, 255, 85, 0.856);
+}
+.green{
+    background-color:rgba(103, 255, 103, 0.747)
+}
+.blue{
+    background-color: rgba(88, 88, 255, 0.692);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    transition: 0.3s;
+    background-color: rgb(112, 255, 45);
+    box-shadow: 0px 0px ;
+}
+.flex-class{
+    display: none;
+    position:fixed;
+    /* translate: scale(1.05); */
+    /* height: 100px; */
+    /* width: 100px; */
+    z-index: 1;
+    top:50%;
+    left: 50%;
+}
